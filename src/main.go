@@ -1,5 +1,11 @@
 package main
 
+import (
+	"fmt"
+
+	"example_module/src/greetings"
+)
+
 func main() {
-	println("Hello, world!")
+	fmt.Printf("%s, world!\n", greetings.Greeting())
 }
