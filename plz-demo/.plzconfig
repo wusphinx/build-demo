@@ -14,6 +14,5 @@
 importpath = example_module
 
 [build]
-;这里必须使用绝对路径，环境变量目前看无法识别到
 ;path = $(dirname $(which go)):/usr/local/bin:/usr/bin:/bin
-path = $YOUR_GO_INSTALL_HERE:/usr/local/bin:/usr/bin:/bin
+path =/Users/qunlinwu/.gvm/gos/go1.17/bin:/usr/local/bin:/usr/bin:/bin
