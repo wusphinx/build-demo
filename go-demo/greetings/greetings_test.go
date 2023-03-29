@@ -5,7 +5,7 @@ import (
 
 	"github.com/go-playground/assert"
 
-	"example_module/src/greetings"
+	"example_module/greetings"
 )
 
 func TestGreeting(t *testing.T) {
